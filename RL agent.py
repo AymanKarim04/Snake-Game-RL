@@ -122,5 +122,3 @@ if __name__ == '__main__':
     env = Snake()
     sum_of_rewards = train_dqn(episodes, env)
     results[params['name']] = sum_of_rewards
-    
-    pd.plot_result(results, direct=True, k=20)
